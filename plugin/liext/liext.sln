@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "liext", "liext\liext.vcxproj", "{76CF0D32-C332-40CF-8C01-DED0C8C9D3B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|PSVita = Debug|PSVita
+		Release|PSVita = Release|PSVita
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76CF0D32-C332-40CF-8C01-DED0C8C9D3B9}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{76CF0D32-C332-40CF-8C01-DED0C8C9D3B9}.Debug|PSVita.Build.0 = Debug|PSVita
+		{76CF0D32-C332-40CF-8C01-DED0C8C9D3B9}.Release|PSVita.ActiveCfg = Release|PSVita
+		{76CF0D32-C332-40CF-8C01-DED0C8C9D3B9}.Release|PSVita.Build.0 = Release|PSVita
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8899E7EC-51B9-4177-BA35-7CE53254B119}
+	EndGlobalSection
+EndGlobal

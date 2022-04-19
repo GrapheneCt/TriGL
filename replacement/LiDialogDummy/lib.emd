@@ -1,0 +1,24 @@
+Module: fwDialog major_version: 1 minor_version: 1
+sceModuleInfo_type: 6
+module_function: module_start localname: module_start
+module_function: module_stop localname: module_stop
+Library: fwDialog attr: auto_export
+Library: fwDialog version: 1
+Library: fwDialog stubfile: "libfwDialog_stub"
+Library: fwDialog nidsuffix: ""
+Library: fwDialog libnamenid: 0xCC1DF0E1
+Library: fwDialog function: fwDialog_0575EE1C nidvalue: 0x0575EE1C
+Library: fwDialog function: fwDialog_14B4F898 nidvalue: 0x14B4F898
+Library: fwDialog function: fwDialog_15DBC805 nidvalue: 0x15DBC805
+Library: fwDialog function: fwDialog_3FB39954 nidvalue: 0x3FB39954
+Library: fwDialog function: fwDialog_40D0C601 nidvalue: 0x40D0C601
+Library: fwDialog function: fwDialog_4EAD278F nidvalue: 0x4EAD278F
+Library: fwDialog function: fwDialog_6366F73D nidvalue: 0x6366F73D
+Library: fwDialog function: fwDialog_63F835F0 nidvalue: 0x63F835F0
+Library: fwDialog function: fwDialog_90810E0A nidvalue: 0x90810E0A
+Library: fwDialog function: fwDialog_9AF23640 nidvalue: 0x9AF23640
+Library: fwDialog function: fwDialog_A20A364C nidvalue: 0xA20A364C
+Library: fwDialog function: fwDialog_D04D173B nidvalue: 0xD04D173B
+Library: fwDialog function: fwDialog_D6F9F508 nidvalue: 0xD6F9F508
+Library: fwDialog function: fwDialog_F37FFF30 nidvalue: 0xF37FFF30
+Library: fwDialog function: fwDialog_F917A161 nidvalue: 0xF917A161
