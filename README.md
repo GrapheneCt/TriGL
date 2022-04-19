@@ -28,5 +28,5 @@ Various usage samples
 7. Repackage app as .vpk
 
 # Usage
-1. Place your code to `js/app/`. Entry point file is main.js
+1. Place your code in `js/app/`. Entry point file is main.js
 2. Refer to samples for extention loading
