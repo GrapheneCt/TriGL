@@ -5,11 +5,11 @@ Develop Javascript WebGL applications for PS Vita.
 # Contents
 ### Plugin
 1. liext.suprx - extends some features of Trilithium and adds simple TypedArray implementation. Currently provides:
-- [Functions](https://github.com/CelesteBlue-dev/PSVita-RE-tools/tree/master/FAGDec/build)
-- [Constants](https://github.com/CelesteBlue-dev/PSVita-RE-tools/tree/master/FAGDec/build)
+- [Functions](https://github.com/GrapheneCt/TriGL/blob/main/plugin/liext/liext/functions.c)
+- [Constants](https://github.com/GrapheneCt/TriGL/blob/main/plugin/liext/liext/constants.c)
 2. webgl.suprx - provides full subset of WebGL functions. Extensions are not supported in the current version. Currently provides:
-- [Functions](https://github.com/CelesteBlue-dev/PSVita-RE-tools/tree/master/FAGDec/build)
-- [Constants](https://github.com/CelesteBlue-dev/PSVita-RE-tools/tree/master/FAGDec/build)
+- [Functions](https://github.com/GrapheneCt/TriGL/blob/main/plugin/webgl/webgl/functions.c)
+- [Constants](https://github.com/GrapheneCt/TriGL/blob/main/plugin/webgl/webgl/constants.c)
 ### Replacement
 Replacement modules to disable builtin Trilithium renderer
 ### Samples
