@@ -21,7 +21,7 @@ Various usage samples
 ### Manual
 1. Download Crunchyroll app from PS Store
 2. Decrypt all modules of the application with [FAGDec](https://github.com/CelesteBlue-dev/PSVita-RE-tools/tree/master/FAGDec/build) to .elf
-3. Make fselfs from decrypted .elf modules with eny fself creation tools, for example from vitasdk
+3. Make fselfs from decrypted .elf modules with any fself creation tools, for example from vitasdk
 4. Replace `psp2/prx/graphics.suprx` and `psp2/prx/fwDialog.suprx` modules with replacement ones from replacement.zip
 5. Copy [PVR_PSP2](https://github.com/GrapheneCt/PVR_PSP2/releases) modules to module folder
 6. Copy modules from plugin.zip to `psp2/prx/`
