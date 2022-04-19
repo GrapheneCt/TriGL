@@ -1,7 +1,7 @@
 // Source code taken from https://www.tutorialspoint.com/webgl/webgl_drawing_a_triangle.htm
 
-var liext = engine.loadPlugin("liext.suprx");
-var gl = engine.loadPlugin("webgl.suprx");
+var liext = engine.loadPlugin("psp2/prx/liext.suprx");
+var gl = engine.loadPlugin("psp2/prx/webgl.suprx");
 var n;
 
 engine.onLoad = function(screen) {

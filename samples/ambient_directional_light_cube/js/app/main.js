@@ -1,7 +1,7 @@
 // Source code taken from https://github.com/bonigarcia/webgl-examples/blob/master/lighting/ambient_directional_light_cube.html
 
-var liext = engine.loadPlugin("liext.suprx");
-var gl = engine.loadPlugin("webgl.suprx");
+var liext = engine.loadPlugin("psp2/prx/liext.suprx");
+var gl = engine.loadPlugin("psp2/prx/webgl.suprx");
 var count = 0.0;
 var ambientLight = new Float32Array([0.5, 0.1, 0.3]); // r, g, b
 var lightColor = new Float32Array([1.0, 1.0, 1.0]); // r, g, b

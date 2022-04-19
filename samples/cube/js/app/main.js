@@ -1,7 +1,7 @@
 // Source code taken from https://github.com/hideto0118/webgl-cube/blob/master/app.js
 
-var liext = engine.loadPlugin("liext.suprx");
-var gl = engine.loadPlugin("webgl.suprx");
+var liext = engine.loadPlugin("psp2/prx/liext.suprx");
+var gl = engine.loadPlugin("psp2/prx/webgl.suprx");
 
 include("js/app/gl-matrix-min.js");
 
