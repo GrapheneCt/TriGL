@@ -1,2 +1,2 @@
 # TriGL
-WebGL implementation for Trilithium
+WebGL implementation for SCE Trilithium Javascript engine
