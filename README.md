@@ -14,6 +14,8 @@ Develop Javascript WebGL applications for PS Vita.
 Replacement modules to disable builtin Trilithium renderer
 ### Samples
 Various usage samples
+### Development
+Headers and stubs for Trilithium plugin development
 
 # Installation
 ### Prepackaged
