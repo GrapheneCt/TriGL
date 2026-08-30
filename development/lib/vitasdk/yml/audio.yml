@@ -1,0 +1,21 @@
+version: 0x2
+firmware: 3.60
+modules:
+  audio:
+    nid: 0
+    libraries:
+      audio:
+        nid: 0x29496AA0
+        kernel: false
+        functions:
+          fwAudioGetPlaybackPosition: 0xA040411E
+          fwAudioSetPlaybackPosition: 0x7DAB87E5
+          fwAudioSetSoundVolume: 0x3785C46D
+          fwSoundGetDuration: 0x7456B018
+          fwSoundGetReadyState: 0x6299B6A6
+          fwSoundNew: 0x003A2B09
+          fwSoundSetEnoughData: 0x1A337BE6
+          fwSoundSetLoop: 0x352967E6
+          fwSoundSetMute: 0x972FB61E
+          fwSoundSetPreload: 0x6B64C52C
+          fwSoundSetVolume: 0xEF3C3D44

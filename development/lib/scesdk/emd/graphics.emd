@@ -1,0 +1,7 @@
+emd: 1
+
+Library: graphics attr: auto_export
+Library: graphics version: 1
+Library: graphics nidsuffix: ""
+Library: graphics stubfile: "libgraphics_stub"
+Library: graphics function: fwGraphicsSetCCParam nidvalue: 0x90FE69F6

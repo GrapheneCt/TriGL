@@ -1,0 +1,11 @@
+version: 0x2
+firmware: 3.60
+modules:
+  graphics:
+    nid: 0
+    libraries:
+      graphics:
+        nid: 0x0298BF85
+        kernel: false
+        functions:
+          fwGraphicsSetCCParam: 0x90FE69F6

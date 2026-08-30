@@ -1,0 +1,13 @@
+emd: 1
+
+Library: core attr: auto_export
+Library: core version: 1
+Library: core nidsuffix: ""
+Library: core stubfile: "libcore_stub"
+Library: core function: fwMemoryMalloc
+Library: core function: fwMemoryFree
+Library: core function: fwMemoryMemalign
+Library: core function: fwMemoryMemset
+Library: core function: fwFileReadText
+Library: core function: fwPathGet
+Library: core function: fwFileReadDir

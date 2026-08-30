@@ -1,0 +1,88 @@
+version: 0x2
+firmware: 3.60
+modules:
+  javascriptcore:
+    nid: 0
+    libraries:
+      javascriptcore:
+        nid: 0xA461A99B
+        kernel: false
+        functions:
+          JSCheckScriptSyntax: 0x2CDD0257
+          JSClassCreate: 0x29D04A8A
+          JSClassRelease: 0xE22E47B8
+          JSClassRetain: 0x8D0FAEAA
+          JSContextGetGlobalObject: 0x21593806
+          JSContextGetGroup: 0x12F48685
+          JSContextGroupCreate: 0x8DF640A2
+          JSContextGroupRelease: 0xEBA514F0
+          JSContextGroupRetain: 0xF900C72F
+          JSEvaluateScript: 0x10DE8508
+          JSGarbageCollect: 0x0E385E2D
+          JSGlobalContextCreate: 0xF06CBD68
+          JSGlobalContextCreateInGroup: 0x0DA7DFC6
+          JSGlobalContextRelease: 0x99418097
+          JSGlobalContextRetain: 0xD9054AF0
+          JSObjectCallAsConstructor: 0xADF1CE8C
+          JSObjectCallAsFunction: 0x36B60B54
+          JSObjectCopyPropertyNames: 0x994E1EBF
+          JSObjectDeleteProperty: 0x7E37A57A
+          JSObjectGetPrivate: 0xC067627E
+          JSObjectGetProperty: 0xFA5BF40E
+          JSObjectGetPropertyAtIndex: 0x1F96C780
+          JSObjectGetPrototype: 0xAD23EA4D
+          JSObjectHasProperty: 0x0821787D
+          JSObjectIsConstructor: 0x7FA97995
+          JSObjectIsFunction: 0x4223873C
+          JSObjectMake: 0xCBD6D2D4
+          JSObjectMakeArray: 0xE6E5C681
+          JSObjectMakeConstructor: 0x37634143
+          JSObjectMakeDate: 0x39F2B583
+          JSObjectMakeError: 0x9AC388DA
+          JSObjectMakeFunction: 0x8C4798B3
+          JSObjectMakeFunctionWithCallback: 0x70479653
+          JSObjectMakeRegExp: 0x1D2E5CA8
+          JSObjectSetPrivate: 0x741B82FC
+          JSObjectSetProperty: 0x12ECB2AE
+          JSObjectSetPropertyAtIndex: 0x8DFBF36F
+          JSObjectSetPrototype: 0x86716E7E
+          JSPropertyNameAccumulatorAddName: 0x93DF8AEA
+          JSPropertyNameArrayGetCount: 0x9E41B6E6
+          JSPropertyNameArrayGetNameAtIndex: 0x0ED7C245
+          JSPropertyNameArrayRelease: 0x3BD42313
+          JSPropertyNameArrayRetain: 0x68E57901
+          JSStringCreateWithCharacters: 0x1DBBDFBA
+          JSStringCreateWithUTF8CString: 0x5487D441
+          JSStringGetCharactersPtr: 0x2099B927
+          JSStringGetLength: 0x4EBC19D0
+          JSStringGetMaximumUTF8CStringSize: 0xEDA3C041
+          JSStringGetUTF8CString: 0x31F8A51E
+          JSStringIsEqual: 0x3B9B5E22
+          JSStringRelease: 0xCD53F13F
+          JSStringRetain: 0xA1605DA3
+          JSValueCreateJSONString: 0x1AE58E1B
+          JSValueGetType: 0x8FDB3F7D
+          JSValueIsBoolean: 0xD5B53D47
+          JSValueIsEqual: 0x925C40F5
+          JSValueIsInstanceOfConstructor: 0xFD80091E
+          JSValueIsNull: 0x3C9D56D1
+          JSValueIsNumber: 0x954D90F6
+          JSValueIsObject: 0x89316D01
+          JSValueIsObjectOfClass: 0xAEBB7B19
+          JSValueIsStrictEqual: 0xF532CAFD
+          JSValueIsString: 0x4DF08882
+          JSValueIsUndefined: 0x13E46C8E
+          JSValueMakeBoolean: 0x20739BC7
+          JSValueMakeFromJSONString: 0xE400A074
+          JSValueMakeNull: 0x48EF62A7
+          JSValueMakeNumber: 0xBA65ABC7
+          JSValueMakeString: 0x8B3A26BF
+          JSValueMakeUndefined: 0x477CDD0B
+          JSValueProtect: 0x69BD9918
+          JSValueToBoolean: 0xC7C5D4FF
+          JSValueToNumber: 0xA7213D78
+          JSValueToObject: 0xDABD247A
+          JSValueToStringCopy: 0x56FFDF0F
+          JSValueUnprotect: 0xD4D9F8A6
+        variables:
+          kJSClassDefinitionEmpty: 0x9C4FB31D

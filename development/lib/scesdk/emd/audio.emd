@@ -1,0 +1,17 @@
+emd: 1
+
+Library: audio attr: auto_export
+Library: audio version: 1
+Library: audio nidsuffix: ""
+Library: audio stubfile: "libaudio_stub"
+Library: audio function: fwSoundNew
+Library: audio function: fwSoundGetDuration
+Library: audio function: fwSoundGetReadyState
+Library: audio function: fwSoundSetEnoughData
+Library: audio function: fwSoundSetLoop
+Library: audio function: fwSoundSetMute
+Library: audio function: fwSoundSetPreload
+Library: audio function: fwSoundSetVolume
+Library: audio function: fwAudioSetSoundVolume
+Library: audio function: fwAudioSetPlaybackPosition
+Library: audio function: fwAudioGetPlaybackPosition

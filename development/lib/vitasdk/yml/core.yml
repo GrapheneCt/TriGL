@@ -1,0 +1,17 @@
+version: 0x2
+firmware: 3.60
+modules:
+  core:
+    nid: 0
+    libraries:
+      core:
+        nid: 0x6E42A094
+        kernel: false
+        functions:
+          fwFileReadDir: 0x6C88DCB9
+          fwFileReadText: 0x7E9203A6
+          fwMemoryFree: 0x120F14FA
+          fwMemoryMalloc: 0x085AD2B0
+          fwMemoryMemalign: 0x1A26FB0D
+          fwMemoryMemset: 0xF3C81283
+          fwPathGet: 0xD3E4E0EE
